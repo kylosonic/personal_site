@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 /* naivation */
 .navsec{
-    background-position: 100%;
-    background-image:url("/Resources/images/cloudy-mountains.jpg");
-    display: absolute;
+    height: 50rem;
+    background-image:url(/Resources/images/cloudy-mountains.jpg);
+    background-size: 100%;
+    
 }
 .navbar{
-    padding:2rem;
+    padding:2rem ;
 }
 .nav-link{
     color:rgb(12, 12, 87);
@@ -18,21 +19,59 @@
     color: rgb(12, 12, 87);
     font-family: 'Roboto Mono', monospace;
 }
+.navbar-nav{
+    margin-left: auto;
+}
 /* navigation */
 
 /* main body */
 
 h1{
-    padding-top: 10rem;
+    padding-top: 8rem;
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
-h2{
-    padding-bottom: 10rem;
-    margin: 0 auto;
+.abtme{
+    height: 50rem;
+    background-color: bisque;
+}
+.abtme1{
+    padding-top: 20%;
+    text-align:center ; 
+    margin:0 auto;
+    font-family: 'Roboto Mono', monospace;
+}
+/* main body */
+/* about me */
+
+.lead,h3{
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
 
-/* main body */
+/* about me */
+/* services */
+.service{
+    text-align: center;
+    height:50rem ;
+    font-family: 'Roboto Mono', monospace;
+}
+.h2{
+    padding-top: 20%;
+}
+/* services */
+/* footer */
+
+.socials{
+    padding-left: 1rem;
+    color:black;
+    font-family: 'Roboto Mono', monospace;
+}
+.socials:hover{
+    color: aqua;
+}
+footer{
+    font-family: 'Roboto Mono', monospace;
+}
+/* footer */
