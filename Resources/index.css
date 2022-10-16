@@ -2,24 +2,29 @@
 /* naivation */
 .navsec{
     height: 50rem;
-    background-image:url(/Resources/images/cloudy-mountains.jpg);
-    background-size: 100%;
+    background-image:url(/Resources/images/vector_forest.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     
 }
 .navbar{
     padding:2rem ;
+    color: white;
 }
 .nav-link{
-    color:rgb(12, 12, 87);
+    color:white;
     padding-right: 2rem;
     font-family: 'Roboto Mono', monospace;
 }
 .navbar-brand{
     padding-left: 2rem;
-    color: rgb(12, 12, 87);
+    color: white;
     font-family: 'Roboto Mono', monospace;
 }
 .navbar-nav{
+    color:white;
     margin-left: auto;
 }
 /* navigation */
@@ -27,17 +32,24 @@
 /* main body */
 
 h1{
-    padding-top: 8rem;
+    color:rgb(5, 5, 89);
+    padding-top: 16rem;
     margin: 0 auto;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
+p{
+    color: white;
+}
 .abtme{
     height: 50rem;
-    background-color: bisque;
+    background-image: url(/Resources/images/cloudy-mountains.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .abtme1{
-    padding-top: 20%;
+    padding-top: 15%;
     text-align:center ; 
     margin:0 auto;
     font-family: 'Roboto Mono', monospace;
@@ -53,25 +65,57 @@ h1{
 /* about me */
 /* services */
 .service{
+    background-image: url(/Resources/images/green_mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     text-align: center;
     height:50rem ;
     font-family: 'Roboto Mono', monospace;
+    color: white;
 }
 .h2{
-    padding-top: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+h3{
+    padding-top: 2rem;
 }
 /* services */
-/* footer */
+/* contact */
+.contact{
+    text-align: center;
+    margin-left: auto;
+    height:50rem;
+    font-family: 'Roboto Mono', monospace;
+    background-image: url(/Resources/images/sunset-mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.soc{
+    padding-top: 5rem;
+}
 
 .socials{
-    padding-left: 1rem;
+    text-align: center;
     color:black;
     font-family: 'Roboto Mono', monospace;
 }
 .socials:hover{
-    color: aqua;
+    color: lightblue;
 }
 footer{
     font-family: 'Roboto Mono', monospace;
+    background-color: black;
 }
+.foot{
+    text-align: center;
+    color:black;
+}
+a{
+    padding-top: 10rem;
+    margin-left: 2rem;
+}
+
 /* footer */
